@@ -1,0 +1,19 @@
+{
+  "name": "uapi-json-types",
+  "version": "1.0.0",
+  "description": "",
+  "typings": "./types/index.ts",
+  "main": "./jsonix-schema",
+  "scripts": {
+    "test": "jest .",
+    "clean": "rm -rf dist && rm -rf json-schema/*.json && rm -rf jsonix-schema/*_0.js rm -rf types/uapi.d.ts",
+    "postinstall": "npm run clean && sh ./postinstall.sh"
+  },
+  "author": "Mark <mail.ormark@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "json-schema-to-typescript": "^7.0.0",
+    "jsonix-schema-compiler": "^2.3.9"
+  }
+}
