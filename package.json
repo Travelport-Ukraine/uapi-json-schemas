@@ -11,9 +11,11 @@
   },
   "author": "Mark <mail.ormark@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
-    "jest": "^24.8.0",
+  "dependencies": {
     "json-schema-to-typescript": "^7.0.0",
     "jsonix-schema-compiler": "^2.3.9"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
   }
 }
